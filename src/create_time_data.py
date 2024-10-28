@@ -2,6 +2,7 @@ import json
 import csv
 from datetime import datetime, timedelta
 
+
 def generate_daily_message_counts(json_path, csv_path, start_date="2022-11-01"):
     with open(json_path, 'r') as file:
         data = json.load(file)
