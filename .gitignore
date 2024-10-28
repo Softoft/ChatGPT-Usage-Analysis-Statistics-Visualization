@@ -1,3 +1,4 @@
 /data/*
 !/data/README.md
 /output/user_conversations.json
+/.idea/
